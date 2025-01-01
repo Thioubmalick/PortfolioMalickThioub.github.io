@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Porfolio en ligne</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/0d6a3846d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="menu">
+            <nav>
+                <img src="images/logomalick.png" class="logomalick">
+                <ul id="menu-list">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#about">A propos </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <div id="hamburger-menu" class="hamburger">
+                    <i class="fa fa-bars"></i>  <!-- Icône hamburger -->
+                </div>
+            </nav>
+            </div>
+            <div class="header-text">
+                <p>Developpeur Full-Stacks</p>
+                <h1>Bonjour,Bienvenue sur mon Blog personnel; <br> <span>MALICK THIOUB</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--La partie About-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/photomalick.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">A Propos de Moi</h1>
+                <p>Je m'appelle Malick Thioub, je suis étudiant en deuxième année en licence informatique à l'Université Iba Der Thiam de Thiès. J'ai une passion accrue pour les nouvelles technologies et leur impact sur la société. Mon objectif est de devenir un développeur compétent et de contribuer à des projets innovants. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Compétences </p>
+                    <p class="tab-links" onclick="opentab('education')">Parcours Académiques</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Interface utilisateur/Expérience utilisateur</li>
+                        <li><span>Developpement Web</span><br>Developper des applications et sites web</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-Aujourd'hui</span><br>licence informatique </li>
+                        <li><span>2022</span><br>Baccalaureat Scientifique (Sciences Expérimentales)</li>
+                        <li><span>2019</span><br>Brevet de Fin d'Etudes Moyennes (BFEM)</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="technologies">
+        <h2>Langages & Éditeurs</h2>
+        <!-- Technologies -->
+        <div class="tech-item">
+            <div class="tech-info">
+                <!-- Icône Font Awesome pour HTML -->
+                <i class="fab fa-html5 tech-icon"></i>
+                <span>HTML</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress html" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-info">
+                <!-- Icône Font Awesome pour CSS -->
+                <i class="fab fa-css3-alt tech-icon"></i>
+                <span>CSS</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress css" style="width: 70%;"></div>
+            </div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-info">
+                <!-- Icône Font Awesome pour JavaScript -->
+                <i class="fab fa-js-square tech-icon"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress javascript" style="width: 50%;"></div>
+            </div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-info">
+                <!-- Icône Font Awesome pour Python -->
+                <i class="fab fa-python tech-icon"></i>
+                <span>Python</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress python" style="width: 50%;"></div>
+            </div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-info">
+                <!-- Icône Font Awesome pour C -->
+                <i class="fab fa-cuttlefish tech-icon"></i>
+                <span>Langage C</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress c" style="width: 50%;"></div>
+            </div>
+        </div>
+    
+        <!-- Éditeurs -->
+        <div class="editor-item">
+            <div class="editor-info">
+                <!-- Icône Font Awesome pour VS Code -->
+                <i class="fab fa-visual-studio-code tech-icon"></i>
+                <span>Visual Studio Code</span>
+            </div>
+        </div>
+        <div class="editor-item">
+            <div class="editor-info">
+                <!-- Icône Font Awesome pour Sublime Text -->
+                <i class="fab fa-sublime-text tech-icon"></i>
+                <span>Sublime Text</span>
+            </div>
+        </div>
+        <div class="editor-item">
+            <div class="editor-info">
+                <!-- Icône Font Awesome pour Atom -->
+                <i class="fab fa-atom tech-icon"></i>
+                <span>Atom</span>
+            </div>
+        </div>
+        <div class="editor-item">
+            <div class="editor-info">
+                <!-- Icône Font Awesome pour Notepad++ -->
+                <i class="fab fa-notepad tech-icon"></i>
+                <span>Notepad++</span>
+            </div>
+        </div>
+    </div>
+    
+    
+    </div>
+    
+
+
+
+<!--la partie mes services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Mes services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+               <h2>UI/UX Design</h2> 
+               <p>Je conçois des interfaces utilisateur (UI) modernes et intuitives, en mettant l'accent sur l'expérience utilisateur (UX). Mon objectif est de créer des designs esthétiques et fonctionnels qui offrent une navigation fluide et agréable, tout en respectant les besoins des utilisateurs et les tendances actuelles du design.</p>
+                <a href="#">En savoir plus </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Developpement d'Application & Site WEB</h2> 
+                <p>Je développe des applications web et mobiles performantes, sur mesure, adaptées aux besoins spécifiques de chaque client. Grâce à des technologies modernes comme HTML, CSS, JavaScript et frameworks populaires, je crée des sites et applications dynamiques, sécurisés et faciles à maintenir.</p>
+                 <a href="#">En savoir plus </a>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+<!--la partie Porfolio-->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mes travaux</h1>
+        <div class="work-list">
+            <div class="work">
+                <div class="layer">
+                    <h3>Projet académique pour recréer une page web : Un projet ayant pour objectif de consolider nos acquis en HTML et CSS.</h3>
+                </div>
+            </div>
+
+            <div class="work">
+                <div class="layer">
+                    <h3>TP sur une série de 4 exercices en HTML, CSS et JavaScript : L'objectif étant de mettre en pratique les notions de base en JavaScript appliquées à du HTML et CSS.</h3>
+                </div> 
+            </div>
+            <div class="work">
+                <div class="layer">
+                    <h3>Ce Portfolio en ligne</h3>
+                </div> 
+            </div>  
+
+        </div>
+    </div>
+</div>
+
+
+<!--la partie le contact-->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Me contacter</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>malickthioub08@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+221782021923</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/MonCv.pdf" class="btn btn2" download="">Télécharger le CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Entrer votre nom ici" required>
+                    <input type="email" name="Email" placeholder="Entrer votre email ici" required>
+                    <textarea name="Message" rows="6" placeholder="Entrer votre message ici "></textarea>
+                    <button type="submit" class="btn btn2">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+
+
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
